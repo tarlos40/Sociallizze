@@ -15,10 +15,6 @@
 }
 
 /* FONTES */
-.logo, .text-primary {
-    color: var(--color-primary) !important;
-}
-
-.logo {
-    font-family: var(--font-logo);
+.text-primary {
+    color: red !important;
 }

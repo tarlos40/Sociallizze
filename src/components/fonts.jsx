@@ -2,19 +2,19 @@
 import React from 'react';
 
 function Title(props) {
-    const { text, customClass } = props;
+    const { text, className } = props;
     return(
         <>
-        <Title className={`${customClass}`}>{text}</Title>
+        <Title className={`${className}`}>{text}</Title>
         </>
     );
 }
 
 function Text(props) {
-    const { text, customClass } = props;
+    const { text, className } = props;
     return(
         <>
-        <p className={`${customClass}`}>{text}</p>
+        <p className={`${className}`}>{text}</p>
         </>
     );
 }
