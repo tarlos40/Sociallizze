@@ -1,0 +1,24 @@
+/* IMPORTANDO */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins&display=swap');
+
+/* VARIAVEIS */
+:root,
+[data-bs-theme=light] {
+    --color-primary: #469CF7;
+    --color-secondary: #0E2A56;
+    --color-danger: #E05135;
+    --color-black: #252324;
+    --color-gray: #4F4F4F;
+    --color-white: #FFFFFF;
+    --font-logo: 'Oleo Script', cursive;
+    --font-principal: 'Poppins', sans-serif;
+}
+
+/* FONTES */
+.logo, .text-primary {
+    color: var(--color-primary) !important;
+}
+
+.logo {
+    font-family: var(--font-logo);
+}
